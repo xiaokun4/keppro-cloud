@@ -1,0 +1,69 @@
+api:
+  boot:
+    logging:
+      # 控制台打印日志
+      show-console-log: true
+      # 美化打印日志
+      format-console-log-json: true
+server:
+  port:
+    8088
+feign:
+  sentinel:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name: keppro-gateway
+  sleuth:
+    enabled: true
+  cloud:
+    sentinel:
+      datasource.ds.nacos:
+        server-addr: 127.0.0.1:8848
+        data-id: ${spring.application.name}-flow-api
+        group-id: DEFAULT_GROUP
+        ruleType: gw-api-group
+        data-type: json
+      datasource.ds1.nacos:
+        server-addr: 127.0.0.1:8848
+        data-id: ${spring.application.name}-gw-flow
+        group-id: DEFAULT_GROUP
+        ruleType: gw-flow
+      filter:
+        enabled: true
+      transport:
+        port: 8720 #端口配置会在应用对应的机器上启动一个 Http Server，该 Server 会与 Sentinel 控制台做交互。比如 Sentinel 控制台添加了1个限流规则，会把规则数据 push 给这个 Http Server 接收，Http Server 再将规则注册到 Sentinel 中
+        dashboard: localhost:8080
+        # 服务启动直接建立心跳连接
+        eager: true
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          lower-case-service-id: true
+#      routes:
+#        # Add your routes here.
+#        - id: keppro-consumer
+#          uri: lb://keppro-consumer
+#          predicates:
+#            - Path=/consumer/**
+#              # Add your routes here.
+#        - id: keppro-producer
+#          uri: lb://keppro-producer
+#          predicates:
+#            - Path=/producer/**
+
+nacos:
+  dataId: sc-gateway
+  group: test
+

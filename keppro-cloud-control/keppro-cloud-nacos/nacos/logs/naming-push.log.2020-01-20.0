@@ -1,0 +1,55 @@
+2020-01-20 00:08:44,379 INFO DEFAULT_GROUP@@keppro-consumer is changed, add it to push queue.
+
+2020-01-20 00:08:44,405 INFO DEFAULT_GROUP@@keppro-provider is changed, add it to push queue.
+
+2020-01-20 00:08:45,631 INFO DEFAULT_GROUP@@keppro-provider is changed, add it to push queue.
+
+2020-01-20 00:08:45,632 INFO serviceName: DEFAULT_GROUP@@keppro-provider changed, schedule push for: 10.222.57.9:53725, agent: Nacos-Java-Client:v1.1.1, key: 10.222.57.9,53725,940756630198140
+
+2020-01-20 00:08:45,632 INFO send udp packet: 10.222.57.9,53725,940756630198140
+
+2020-01-20 00:08:45,633 INFO received ack: {"type": "push-ack", "lastRefTime":"940756630198140", "data":""} from: 10.222.57.9:, cost: 53725 ms, unacked: 1, total push: 0
+
+2020-01-20 00:08:45,746 INFO DEFAULT_GROUP@@keppro-consumer is changed, add it to push queue.
+
+2020-01-20 02:00:08,742 INFO DEFAULT_GROUP@@keppro-consumer is changed, add it to push queue.
+
+2020-01-20 02:00:08,748 INFO DEFAULT_GROUP@@keppro-provider is changed, add it to push queue.
+
+2020-01-20 02:00:08,752 INFO serviceName: DEFAULT_GROUP@@keppro-provider changed, schedule push for: 10.222.57.9:53725, agent: Nacos-Java-Client:v1.1.1, key: 10.222.57.9,53725,942618424093006
+
+2020-01-20 02:00:08,752 INFO send udp packet: 10.222.57.9,53725,942618424093006
+
+2020-01-20 02:00:08,754 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@keppro-provider","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[],"name":"DEFAULT_GROUP@@keppro-provider","checksum":"40cb722d0372fa4629a3ae743c3dc7c4","lastRefTime":1579456808749,"env":"","clusters":""}, lastRefTime=942618424093006} to client: 10.222.57.9, error: {}
+
+java.io.IOException: Network is unreachable (sendto failed)
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:579)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:51)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:184)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-20 02:00:10,845 INFO DEFAULT_GROUP@@keppro-provider is changed, add it to push queue.
+
+2020-01-20 02:00:10,846 INFO serviceName: DEFAULT_GROUP@@keppro-provider changed, schedule push for: 10.222.57.9:53725, agent: Nacos-Java-Client:v1.1.1, key: 10.222.57.9,53725,942620521298431
+
+2020-01-20 02:00:10,847 INFO send udp packet: 10.222.57.9,53725,942620521298431
+
+2020-01-20 02:00:10,854 INFO received ack: {"type": "push-ack", "lastRefTime":"942620521298431", "data":""} from: 10.222.57.9:, cost: 53725 ms, unacked: 7, total push: 0
+
+2020-01-20 02:00:10,874 INFO DEFAULT_GROUP@@keppro-consumer is changed, add it to push queue.
+
+2020-01-20 03:22:31,808 INFO DEFAULT_GROUP@@keppro-provider is changed, add it to push queue.
+
+2020-01-20 03:22:31,809 INFO DEFAULT_GROUP@@keppro-consumer is changed, add it to push queue.
+
+2020-01-20 03:22:33,991 INFO DEFAULT_GROUP@@keppro-provider is changed, add it to push queue.
+
+2020-01-20 03:22:34,006 INFO DEFAULT_GROUP@@keppro-consumer is changed, add it to push queue.
+

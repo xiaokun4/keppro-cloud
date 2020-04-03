@@ -1,0 +1,70 @@
+2020-03-25 03:40:32,253 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 03:40:34,257 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 11:19:59,730 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 11:20:01,727 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 11:29:49,413 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 11:29:50,697 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 11:57:37,773 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 11:57:39,027 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 12:07:41,299 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 12:07:43,303 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 12:42:03,871 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 12:42:05,869 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 13:56:43,797 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 13:56:45,794 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"169.254.78.101","key":"169.254.78.101:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-03-25 16:43:39,856 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:43:40,007 INFO initializing Raft sub-system
+
+2020-03-25 16:43:40,007 INFO raft notifier started
+
+2020-03-25 16:43:40,008 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2020-03-25 16:43:40,012 INFO cache loaded, datum count: 0, current term: 0
+
+2020-03-25 16:43:40,012 INFO finish to load data from disk, cost: 5 ms.
+
+2020-03-25 16:43:40,014 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-03-25 16:43:40,065 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-03-25 16:43:44,855 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:43:49,852 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:43:54,854 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:43:59,853 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:04,856 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:09,049 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-03-25 16:44:09,856 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:14,851 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:19,851 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:24,851 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:29,854 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:34,854 WARN refresh server list failed, ignore it.
+
+2020-03-25 16:44:39,852 WARN refresh server list failed, ignore it.
+

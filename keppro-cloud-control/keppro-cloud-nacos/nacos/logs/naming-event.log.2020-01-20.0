@@ -1,0 +1,106 @@
+2020-01-20 00:08:43,371 INFO {POS} {IP-DISABLED} valid: 10.222.57.9:8000@DEFAULT@DEFAULT_GROUP@@keppro-consumer, region: unknown, msg: client timeout after 15000, last beat: 1579442922603
+
+2020-01-20 00:08:43,373 INFO {POS} {IP-DISABLED} valid: 10.222.57.9:8001@DEFAULT@DEFAULT_GROUP@@keppro-provider, region: unknown, msg: client timeout after 15000, last beat: 1579442922496
+
+2020-01-20 00:08:44,132 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 00:08:44,132 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 00:08:44,133 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 00:08:44,133 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 00:08:44,133 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 00:08:44,133 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 
+
+2020-01-20 00:08:44,135 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 00:08:44,135 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 00:08:44,628 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 00:08:44,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 10.222.57.9:8001_true,
+
+2020-01-20 00:08:44,628 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 00:08:44,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 10.222.57.9:8001_true,
+
+2020-01-20 00:08:44,738 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 00:08:44,738 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 10.222.57.9:8000_true,
+
+2020-01-20 02:00:07,732 INFO {POS} {IP-DISABLED} valid: 10.222.57.9:8000@DEFAULT@DEFAULT_GROUP@@keppro-consumer, region: unknown, msg: client timeout after 15000, last beat: 1579456226547
+
+2020-01-20 02:00:07,734 INFO {POS} {IP-DISABLED} valid: 10.222.57.9:8001@DEFAULT@DEFAULT_GROUP@@keppro-provider, region: unknown, msg: client timeout after 15000, last beat: 1579456226520
+
+2020-01-20 02:00:07,741 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 02:00:07,741 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 
+
+2020-01-20 02:00:08,488 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 02:00:08,488 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 02:00:08,488 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 02:00:08,488 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 02:00:08,488 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 02:00:08,488 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 02:00:09,835 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 02:00:09,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 10.222.57.9:8001_true,
+
+2020-01-20 02:00:09,836 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 02:00:09,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 10.222.57.9:8001_true,
+
+2020-01-20 02:00:09,867 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 02:00:09,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 10.222.57.9:8000_true,
+
+2020-01-20 03:22:30,801 INFO {POS} {IP-DISABLED} valid: 10.222.57.9:8000@DEFAULT@DEFAULT_GROUP@@keppro-consumer, region: unknown, msg: client timeout after 15000, last beat: 1579456859994
+
+2020-01-20 03:22:30,801 INFO {POS} {IP-DISABLED} valid: 10.222.57.9:8001@DEFAULT@DEFAULT_GROUP@@keppro-provider, region: unknown, msg: client timeout after 15000, last beat: 1579456859971
+
+2020-01-20 03:22:30,813 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 03:22:30,813 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 03:22:30,814 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 03:22:30,814 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 03:22:30,814 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-01-20 03:22:30,814 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 
+
+2020-01-20 03:22:30,814 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 03:22:30,814 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+
+2020-01-20 03:22:32,981 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 03:22:32,981 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 10.222.57.9:8001_true,
+
+2020-01-20 03:22:32,981 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 03:22:32,981 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 10.222.57.9:8001_true,
+
+2020-01-20 03:22:33,003 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 03:22:33,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 10.222.57.9:8000_true,
+
+2020-01-20 03:25:02,371 INFO DEFAULT_GROUP@@keppro-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 03:25:02,374 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-consumer, ips: 
+
+2020-01-20 03:25:02,376 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 03:25:02,380 INFO DEFAULT_GROUP@@keppro-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.222.57.9:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-01-20 03:25:02,387 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@keppro-provider, ips: 
+

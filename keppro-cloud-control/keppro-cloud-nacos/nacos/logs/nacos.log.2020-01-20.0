@@ -1,0 +1,22 @@
+2020-01-20 00:14:47,692 INFO [capacityManagement] start correct usage
+
+2020-01-20 00:14:47,695 WARN clearConfigHistory start
+
+2020-01-20 00:14:47,718 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-20 00:24:47,733 WARN clearConfigHistory start
+
+2020-01-20 00:24:47,733 INFO [capacityManagement] start correct usage
+
+2020-01-20 00:24:47,740 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-20 00:34:47,755 INFO [capacityManagement] start correct usage
+
+2020-01-20 00:34:47,755 WARN clearConfigHistory start
+
+2020-01-20 00:34:47,763 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-20 03:25:02,361 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-01-20 03:25:02,371 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+

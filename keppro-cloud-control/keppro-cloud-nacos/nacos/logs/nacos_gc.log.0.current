@@ -1,0 +1,17 @@
+Java HotSpot(TM) 64-Bit Server VM (25.211-b12) for bsd-amd64 JRE (1.8.0_211-b12), built on Apr  1 2019 20:53:18 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 8388608k(25444k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:CompressedClassSpaceSize=327155712 -XX:GCLogFileSize=104857600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/xiaokun5/IdeaProjects/hubble/keppro-cloud/keppro-cloud-control/keppro-cloud-nacos/nacos/logs/java_heapdump.hprof -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:MaxMetaspaceSize=335544320 -XX:MaxNewSize=1073741824 -XX:MetaspaceSize=134217728 -XX:NewSize=1073741824 -XX:NumberOfGCLogFiles=10 -XX:-OmitStackTraceInFastThrow -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:-UseLargePages -XX:+UseParallelGC 
+2020-04-02T15:13:13.869-0800: 2.500: [GC (Allocation Failure) [PSYoungGen: 786432K->10147K(917504K)] 786432K->10251K(1966080K), 0.0307821 secs] [Times: user=0.12 sys=0.03, real=0.04 secs] 
+2020-04-02T15:13:15.579-0800: 4.210: [GC (Allocation Failure) [PSYoungGen: 796579K->16032K(917504K)] 796683K->16152K(1966080K), 0.0153602 secs] [Times: user=0.09 sys=0.01, real=0.02 secs] 
+Heap
+ PSYoungGen      total 917504K, used 770131K [0x00000007ac800000, 0x00000007ec800000, 0x00000007ec800000)
+  eden space 786432K, 95% used [0x00000007ac800000,0x00000007da86ce78,0x00000007dc800000)
+  from space 131072K, 12% used [0x00000007e4800000,0x00000007e57a8050,0x00000007ec800000)
+  to   space 131072K, 0% used [0x00000007dc800000,0x00000007dc800000,0x00000007e4800000)
+ ParOldGen       total 1048576K, used 120K [0x000000076c800000, 0x00000007ac800000, 0x00000007ac800000)
+  object space 1048576K, 0% used [0x000000076c800000,0x000000076c81e010,0x00000007ac800000)
+ Metaspace       used 47106K, capacity 48930K, committed 49024K, reserved 1091584K
+  class space    used 5838K, capacity 6208K, committed 6272K, reserved 1048576K

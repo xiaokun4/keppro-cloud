@@ -34,14 +34,19 @@ public class DynamicRouteServiceImpl implements ApplicationEventPublisherAware {
             this.publisher.publishEvent(new RefreshRoutesEvent(this));
             return "success";
         } catch (Exception e) {
-            return "update route  fail";
+            return "update route fail";
         }
     }
     //删除路由
-    public Mono<ResponseEntity<Object>> delete(String id) {
-        return this.routeDefinitionWriter.delete(Mono.just(id))
-                .then(Mono.defer(() -> Mono.just(ResponseEntity.ok().build())))
-                .onErrorResume(t -> t instanceof NotFoundException, t -> Mono.just(ResponseEntity.notFound().build()));
+    public String delete(String id) {
+        try {
+            routeDefinitionWriter.delete(Mono.just(id))
+                    .then(Mono.defer(() -> Mono.just(ResponseEntity.ok().build())))
+                    .onErrorResume(t -> t instanceof NotFoundException, t -> Mono.just(ResponseEntity.notFound().build()));
+            return "success";
+        }catch (Exception e) {
+            return "delete route fail";
+        }
     }
 
     @Override
